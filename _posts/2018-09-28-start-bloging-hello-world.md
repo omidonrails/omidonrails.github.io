@@ -1,5 +1,6 @@
 ---
 title: "! شروع وبلاگ نویسی من: سلام دنیا"
+shorten: true
 ---
 
 ![hello world](https://bayanbox.ir/download/6977546749116831495/hello-world.png)
