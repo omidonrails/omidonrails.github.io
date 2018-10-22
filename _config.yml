@@ -6,6 +6,6 @@ url: ''
 twitter_username: omidonrails
 github_username: omidonrails
 markdown: kramdown
-theme: jekyll-theme-mehdix-rtl
+theme: minima
 plugins:
   - jekyll-feed
