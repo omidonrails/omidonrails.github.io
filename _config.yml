@@ -1,6 +1,27 @@
+# Site Build Settings
+
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+
 title: خیابان
 email: 'omidonrails [at] gmail.com'
-description: '! در این وبلاگ دست نوشته های یک انسان خیابانی را میخوانید و احتمالا لذت میبرید'
+description: 'در این وبلاگ دست نوشته های امید شهسوارزاده را میخوانید'
+author: 'OmidSH'
 baseurl: ''
 url: ''
 twitter_username: omidonrails
@@ -9,3 +30,13 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
