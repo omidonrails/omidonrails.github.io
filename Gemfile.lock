@@ -82,6 +82,10 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     multi_json (1.13.1)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
@@ -128,6 +132,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-feed (~> 0.6)
   jekyll-theme-mehdix-rtl
+  minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
