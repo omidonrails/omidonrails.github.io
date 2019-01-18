@@ -17,25 +17,16 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-title: خیابان
-email: 'omidonrails [at] gmail.com'
-description: 'در این وبلاگ دست نوشته های امید شهسوارزاده را میخوانید'
-author: 'OmidSH'
-baseurl: ''
-url: ''
-twitter_username: omidonrails
-github_username: omidonrails
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+themename:              'لاگارانژ'
+title:		           'خیابان'
+description:	       'دست نوشته های یک هکر دغدغه مند'
+author:              'امید شهسوارزاده'
+translator:          'امید شهسوارزاده'
+themeauthor:         'Paul Le'
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

@@ -1,6 +1,7 @@
 ---
 title: "! شروع وبلاگ نویسی من: سلام دنیا"
 layout: post
+image: hello-world.png
 ---
 
 ![hello world](/hello-world.png)
