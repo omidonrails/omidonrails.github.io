@@ -29,3 +29,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 
 gem 'jekyll-admin', group: :jekyll_plugins
+
+gem 'wdm', '>= 0.1.0'
