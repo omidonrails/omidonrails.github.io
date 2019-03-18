@@ -22,7 +22,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 themename:              'لاگارانژ'
 title:		           'خیابان'
-description:	       'دست نوشته های یک هکر دغدغه مند'
+description:	       'پرواز را به خاطر بسپار، پرنده مُردَنیست...'
 author:              'امید شهسوارزاده'
 translator:          'امید شهسوارزاده'
 themeauthor:         'Paul Le'
